@@ -6,5 +6,6 @@ import (
 )
 
 func IndexController(context *gin.Context) {
-	context.JSON(http.StatusOK, "Hello world")
+	context.String(http.StatusOK, "Hello Gin World")
+	//context.JSON(http.StatusOK, "Hello World")
 }
